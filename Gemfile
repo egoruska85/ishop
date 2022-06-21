@@ -71,11 +71,17 @@ group :test do
   gem 'launchy'
   gem 'rubocop', require: false
   gem 'shoulda-matchers'
-  gem 'chromedriver-helper'
-  gem 'selenium-webdriver', '>= 4.0.0.rc1'
+
+
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise'
+gem 'devise-bootstrap-views', '~> 1.0'
+gem 'rails_admin', '~> 2.0'
+gem 'rails-i18n'
+gem 'devise-i18n'
+gem 'rails_admin-i18n'
